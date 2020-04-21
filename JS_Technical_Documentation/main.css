@@ -1,0 +1,76 @@
+body{
+  background-color: #fafafa;
+}
+
+#main-doc{
+  font-family: Helvetica;
+  text-align: justify;
+  line-height:0.5cm;
+  font-size: 15px;
+  padding: 10px;
+}
+
+p {
+  margin-left: 0.5em;
+}
+
+.main-section{
+  margin-left: 200px;
+  padding: 0px 10px;
+}
+
+.intro-list, .to-know-list{
+  margin: 0px 0px 20px 0px;
+}
+
+.code{
+  display:block;
+  background-color: hsl(0, 0%, 88.6%);
+  font-family: monospace;
+  font-size:13px;
+  max-width:70%;
+  height: auto;
+  margin: 10px 30px 0px;
+  padding: 10px 10px 10px 10px;
+}
+
+.intro-list2{
+  list-style-type: circle;
+  margin: 0px 0px 20px 60px;
+}
+
+#navbar{
+  left: 0;
+  top:0;
+  position: fixed;
+  padding: 10px;
+  display:block;
+  border-right: 2px solid black;
+  overflow-x: hidden;
+}
+
+.nav-link {
+  display: inline-block;
+  height: auto;
+  max-width: 100px;
+  position: relative;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #fafafa;
+  padding-top: 5px;
+}
+
+.nav-link a{
+  display: inline-block;
+  text-decoration: none;
+  font-size: 20px;
+  border-top: solid black thin;
+  color: black;
+
+}
+
+@medi screen and (max-height: 450px){
+  .nav-link{padding-top: 2px;}
+  .nav-link a{font-size:18px;}
+}

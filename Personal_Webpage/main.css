@@ -1,0 +1,114 @@
+body{
+  background-color: black;
+  background-image: url(https://media.istockphoto.com/photos/two-business-people-going-through-paperwork-contract-in-an-office-picture-id1035879730);
+}
+
+
+
+.navbar{
+  display:block;
+  position: fixed;
+  margin: 0px 0px 20px;
+  background-color: gray;
+  top: 0;
+  height: 40px;
+  width:100%;
+  z-index: 1;
+
+}
+
+.navbar a{
+  display: block;
+  text-decoration: none;
+  position: relative;
+  top: 0;
+  padding: 10px 10px 0px;
+  color: white;
+  text-align: center;
+  float: right;
+}
+
+.welcome-section{
+  display:block;
+  background-color: rgb(214,214,255);
+  height: 200px;
+  max-width: 40%;
+  padding: 80px 0px 80px;
+  text-align: center;
+  color: black;
+  border-style: solid;
+  border-color: white;
+  border-size: 20px;
+  margin: 70px auto 0px auto;
+}
+
+.project-items {
+  display: block;
+  height: 200px;
+  max-width: 40%;
+  margin: 70px auto 0px auto;
+  padding: 50px 0px 10px;
+  border-style: solid;
+  border-color: white;
+  border-size: 20px;
+  background-color: blue;
+  color: white;
+  text-align: center;
+}
+
+#profile-link{
+ display: grid;
+ justify-content: center;
+}
+
+.projects {
+  color: white;
+  font-size: 12px;
+  text-align: center;
+  padding: 10px 0px 10px;
+  text-decoration: none;
+}
+
+.contact-links {
+  display: block;
+  height: 200px;
+  max-width: 100%;
+  margin: 70px auto auto auto;
+  padding: 50px 0px 10px;
+  background-color: #f9f4ee;
+  color: red;
+  text-align: center;
+}
+
+.contact-container{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+
+.contact-item {
+  padding: 0px 20px 20px;
+}
+
+.img-link {
+  width: 30px;
+  padding: 0px 5px;
+}
+
+.footer{
+  display: block;
+  background-color: gray;
+  padding: 10px 10px 0px;
+  top: 0;
+  height: 40px;
+  width:100%;
+  text-align: right;
+  color: white;
+}
+
+@media only screen and (max-width: 600px) {
+  .welcome-section{
+   height: 200px;
+  }
+}

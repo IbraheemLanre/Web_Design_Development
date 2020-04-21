@@ -1,0 +1,105 @@
+body{
+  background-color: lightgray;
+}
+
+.company-name{
+  display: flex;
+  width: 50%;
+  align-items:center;
+  postion:fixed;
+  color: magenta;
+}
+
+
+#header-img{
+  width: 100px;
+  height: 100px;
+}
+
+#nav-bar{
+  display:grid;
+  width:100%;
+  justify-content: end;
+  grid-template-columns: 50px 50px 50px;
+}
+
+.nav-link{
+  display: grid;
+  font-size: 18px;
+  border-color: magenta;
+  border-width:2px;
+  border-style: solid;
+  border-radius: 20%;
+  margin: 0 auto;
+}
+
+
+.sign-up-page{
+  height: 350px;
+  display:flex;
+  justify-content: center;
+  align-items:center;
+}
+
+.email-form{
+  text-align:center;
+  margin-bottom:20px;
+}
+
+.email-labels{
+  display:block;
+  text-align: center;
+  margin: 0px 0px 5px 0px;
+  font-size:30px;
+
+}
+
+.inputs{
+  display:block;
+  padding:0px 0px 20px 0px;
+  font-size:15px;
+
+}
+
+.additional-product{
+ height: 350px;
+ display:flex;
+ justify-content: center;
+ font-size: 20px;
+}
+
+.shippping-label{
+  font-size: 15px;
+  align-items: center;
+}
+
+.returning-label{
+  font-size: 15px;
+  align-items: center;
+}
+
+.video-content{
+  display: flex;
+  height:600px;
+  justify-content:center;
+}
+
+.video{
+  text-align: center;
+  color: black;
+  width: 320px;
+  height: 400px;
+}
+
+.ladies{
+  height: 600px;
+  width: 300px;
+  background-color: black;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQEhZ90WrFE-gK7vrPeK3_YrK1FfseaErT1Z07mVBWrxoIejZPYqxhnUpHe3qa7F4FYNjnKpvge&usqp=CAc);
+}
+
+@media only screen and(max-width: 600px){
+  body{
+    background-color: skyblue;
+  }
+}

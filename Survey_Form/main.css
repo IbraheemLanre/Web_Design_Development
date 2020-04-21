@@ -1,0 +1,57 @@
+body{
+  background-color: rgb(218, 112, 214);
+  font-family: monospace;
+}
+
+#title{
+  color: white;
+  font-size=60px;
+  margin: 20px 0px 0px 0px;
+  text-align: center;
+}
+
+#description{
+  color:white;
+  font-size=20px;
+  margin: 0px 0px 20px 0px;
+  text-align: center;
+}
+
+#survey-form{
+  background-color: green;
+  width: 500px;
+  margin: 0 auto;
+
+}
+
+.details{
+  display:block;
+  padding: 10px;
+  color: white;
+}
+
+.labels{
+  display:inline-block;
+  margin: 0px 0px 5px 0px;
+}
+
+.inputs{
+  display:block;
+}
+
+.recommend-inputs{
+  display:block;
+
+}
+
+#comment{
+  width:400px;
+  height:auto;
+  padding:0px;
+}
+
+#submit{
+  text-align:center;
+  padding:10px;
+  background-color:;
+}
