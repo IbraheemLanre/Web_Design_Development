@@ -1,0 +1,33 @@
+body{
+  background-repeat: repeat;
+  background-color: #7CFC00;
+}
+
+body,
+h1,
+h3,
+p {
+
+  font-family: Helvetica, Arial, sans-serif;
+  display: block;
+  justify-content: center;
+}
+
+.container {
+
+
+  text-align: center;
+  padding-top: 50px;
+}
+
+hr {
+  width: 600px;
+  border-bottom: 1px solid black;
+  }
+
+.quote-box {
+  border: 1px dashed black;
+  border-radius: 15px;
+  padding: 10px;
+  margin: auto 0px 15px;
+}
