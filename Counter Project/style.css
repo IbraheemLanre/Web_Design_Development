@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*In order to override issues caused by some search engine in box-sizing, we can override
+  the above when encoured with the below box-sizing*/
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  background: url("img/mainBcg.jpeg");
+  background-position: center fixed no-repeat;
+  color: whitesmoke;
+}
+
+.container {
+  text-align: center;
+}
+
+.main-container {
+  display: inline-block;
+  width: 300px;
+  height: 320px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border: 0.1rem solid whitesmoke;
+  box-shadow: 0 0.5rem 0.5rem rgba(117, 117, 117, 0.9);
+}
+
+#counter {
+  color: green;
+  font-size: 10rem;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  flex-flow: column wrap;
+}
+
+button {
+  margin: 4px 2px;
+  padding: 10px 32px;
+  border: none;
+  background: burlywood;
+  color: green;
+  text-decoration: none;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 8px;
+  border: 1px solid black;
+  transition-duration: 0.5s;
+}
+
+button:hover {
+  background: lightblue;
+}
